@@ -1,0 +1,125 @@
+/* Modern Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #283c86, #45a247);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #f1c40f;
+}
+
+/* Logout Button */
+.logout-btn {
+  background: #e74c3c;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.logout-btn:hover {
+  background: #c0392b;
+  transform: scale(1.05);
+}
+
+/* Search Box */
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+  font-size: 1rem;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.search-container input:focus {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+.search-container .search-button {
+  background: #007bff;
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.2rem;
+  transition: background 0.3s ease-in-out;
+}
+
+.search-container .search-button:hover {
+  background: #0056b3;
+}
+
+/* Autocomplete List */
+.autocomplete-list {
+  position: absolute;
+  background: white;
+  list-style: none;
+  padding: 8px;
+  border: 1px solid #ccc;
+  max-height: 180px;
+  overflow-y: auto;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.autocomplete-list li {
+  padding: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.autocomplete-list li:hover {
+  background: #f1f1f1;
+}
+
+/* Cart Icon */
+.cart-icon {
+  font-size: 1.5rem;
+  color: #ecf0f1;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cart-icon:hover {
+  transform: scale(1.2);
+}

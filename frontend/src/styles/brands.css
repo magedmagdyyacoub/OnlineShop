@@ -1,0 +1,30 @@
+.brandsLine {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  animation: scrollBrands 20s linear infinite;
+}
+
+.brandImage {
+  height: 60px;  /* Adjust height as needed */
+  margin: 0 10px;
+  object-fit: contain;
+  cursor: pointer;
+  user-select: none;
+}
+
+.separator {
+  color: #ccc;
+  margin: 0 10px;
+  user-select: none;
+}
+
+/* Scroll animation */
+@keyframes scrollBrands {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

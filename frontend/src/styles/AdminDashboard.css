@@ -1,0 +1,58 @@
+.admin-dashboard {
+  margin-left: 260px; /* Adjust for sidebar */
+  padding: 20px;
+}
+
+.role-manager {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.user-table th, .user-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+}
+
+.user-table button {
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.user-table button:hover {
+  background: #0056b3;
+}
+.category-manager {
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 8px;
+}
+.category-form input {
+  margin-right: 10px;
+}
+.category-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+

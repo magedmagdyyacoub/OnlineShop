@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.newsLine {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+.categoryName {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.separator {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #aaa;
+}
+
+/* Hover effect: pause animation and change color */
+.newsLine:hover {
+  animation-play-state: paused;
+}
+
+.categoryName:hover {
+  color: #ff5722;
+}
+
+/* Scrolling animation */
+@keyframes scroll {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

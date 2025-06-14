@@ -1,0 +1,26 @@
+.sidebar {
+  width: 250px;
+  background: #2c3e50;
+  color: white;
+  padding: 1rem;
+  margin-top: 90px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.role-btn {
+  width: 100%;
+  padding: 10px;
+  background: #f39c12;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.role-btn:hover {
+  background: #e67e22;
+}
